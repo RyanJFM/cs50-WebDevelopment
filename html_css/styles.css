@@ -5,6 +5,14 @@
     height:100vh;
 }
 
+.top-right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height:100vh;
+    margin: 50px;
+}
+
 .text-box {
     width: 700px;
     height: 40px;
@@ -15,6 +23,20 @@
     border-color: black;
     border-width: 2px;
     border-style: solid;
+}
+
+.small-box {
+    margin: 5px;
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+#move-a-bit {
+    margin-top: 20px;
+    margin-left: 50px;
 }
 
 .submit-button {
@@ -64,4 +86,18 @@
     font-size: 20px;
     padding: 10px;
     background-color: whitesmoke;
+}
+
+.image-link {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 18px;;
+}
+
+.advanced-link {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    font-size: 18px;;
 }
