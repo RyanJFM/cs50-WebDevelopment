@@ -12,11 +12,6 @@ h1 {
     padding-top: 20px;
 }
 
-textarea {
-    height: 90vh;
-    width: 80%;
-}
-
 .main {
     padding: 10px;
 }
@@ -35,4 +30,34 @@ textarea {
 
 .sidebar h2 {
     margin-top: 5px;
+}
+
+
+textarea.title {
+    border-radius: 50px;
+    height: 60px;
+    width: 1000px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 8px;
+}
+
+textarea.content {
+    border-radius: 50px;
+    margin-top: 30px;
+    height: 250px;
+    width: 1000px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 15px;
+}
+
+.form {
+    padding: 50px;
+}
+
+.submit-new {
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 50px;
 }
